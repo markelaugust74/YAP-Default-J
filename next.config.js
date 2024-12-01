@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   output: 'export',
-  images: { unoptimized: true },
   basePath: '/YAP-Default-J',
   assetPrefix: '/YAP-Default-J/',
-  trailingSlash: true,
-  distDir: 'out'
+  images: { unoptimized: true },
+  trailingSlash: true
 }
+
+module.exports = nextConfig
